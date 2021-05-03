@@ -1,12 +1,12 @@
 body{
     background-color: rgb(0, 0, 0);  
     position: static;
-  
+
 }
 
 div{
     height: 100vh;
-    width: 100vw;
+    width: 95.8vw;
 
 }
 
@@ -14,26 +14,30 @@ div{
     background-color: darkolivegreen;
     border: black 40px solid ;
     border-bottom: none;
+    border-right: none;
+    border-top: none;
 }
 
 #abt{
-    background-color: darkolivegreen;
-    border: black 40px solid ;
-    border-top: none;
-    border-bottom: none;
+    background-color:darkolivegreen;
+    border-left: black 40px solid ;
+    
 }
+
 
 #works{
     background-color: darkolivegreen;
-    border: black 40px solid ;
-    border-bottom: none;
-    border-top: none;
+    border-left: black 40px solid ;
+
+
 }
 
 #contact{
-    background-color: darkolivegreen;
+    background-color:darkolivegreen;
     border: black 40px solid ;
     border-top: none;
+    border-right: none;
+
 }
 
 li{
@@ -70,6 +74,28 @@ ul{
     padding-top: -2cm;
     overflow: hidden;
     background-color:black;
-    position: fixed;
+    position:fixed;
     width: 100%;
+}
+
+.circular{
+    float: right;
+    margin-top: 3cm;
+    margin-right: 5cm;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+#para{
+    text-align: center;
+    padding-top: 4cm;
+    font-size: 25px;
+}
+
+#p{
+    color: black; 
+    font-size: 20px;
+    padding-top: 0cm;
+    padding-left: 2cm;
 }
